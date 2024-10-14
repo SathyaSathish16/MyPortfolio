@@ -287,11 +287,16 @@
                 </div>
                 <div>
                     <h2 class="about_subtitle">I'm Sathya</h2>
+                    
                     <p class="about_text">
-                        Detail-oriented and dedicated professional with 5 years of experience in the healthcare domain,
-                        specializing in C++ and SQL Server 2000. Proven track record of good teamwork and delivering
-                        high-quality results.
+                        With five years of hands-on experience in C++ programming, I honed my skills in delivering robust software solutions. After a 15-year career break due to personal commitments, I am now eager to return to the tech world, driven by a passion for web development. My journey has equipped me with a unique perspective and a renewed dedication to creating innovative web applications. Ready to embrace new challenges and leverage my past expertise, I aim to contribute meaningfully to cutting-edge web development projects
                     </p>
+                    
+
+                    <p class="about_text">
+
+                    </p>
+
                 </div>
             </div>
         </section>
@@ -301,9 +306,15 @@
             <div class="skills_container bd_grid">
                 <div>
                     <h2 class="skills_subtitle">Professional Skills</h2>
-                    <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aperiam
-                        sit quod pariatur voluptas temporibus esse nobis ipsa commodi, sapiente atque ea recusandae
-                        laborum ad distinctio expedita! Delectus, architecto omnis!</p>
+                    <p class="skills_text">
+                        <h4>Front-End Development:</h4>
+                        <p> Proficient in HTML, CSS, JavaScript, and modern frameworks like React, ensuring visually appealing and responsive web applications.</p>
+                        <h4>C++ Programming:</h4>
+                         Solid foundation in C++ with experience in developing efficient, high-performance software solutions.
+                        <h4>SQL Server 2000:</h4>
+                        Leveraging my experience with SQL Server 2000, I've smoothly transitioned to mastering MySQL, drawing on foundational database management skills to excel in both environments.
+                        <h4>Microsoft Office: </h4>
+                        Proficient in MS Office applications, enhancing productivity and effective communication.</p>
                     <!-- Skills HTML -->
                     <div class="skills_data">
                         <div class="skills_name">
@@ -372,16 +383,16 @@
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
             <div class="contact_container bd_grid">
-                <form action="#" class="contact_form">
-                <input type="text" placeholder="Name" class="control_input">
-                <input type="mail" placeholder="email" class="control_input">
+                <form action="#" class="contact_form" id="contact_form" onsubmit="myfunc(event)">
+                <input type="text" placeholder="Name" class="control_input" id="name">
+                <input type="mail" placeholder="email" class="control_input" id="email">
                 <textarea 
                 name="" 
-                id=""
+                id="desc"
                 cols="0"
                 row="10"
                 class="control_input"></textarea>
-                <input type="button" value="Send" class="control_button button"></form>
+                <input type="submit" value="Send" class="control_button button" id="send_btn"></form>
             </div>
         </section>
         <!-- Footer Section -->
