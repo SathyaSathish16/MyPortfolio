@@ -173,7 +173,7 @@ img {
 }
 
 .nav_logo {
-    color: var(--second-color);
+    color: var(--first-color);
 }
 
 .nav_toggle {
@@ -368,12 +368,16 @@ img {
     width: 20%;
 }
 
-.skill_ui {
+.skill_cplus {
     width: 80%;
 }
 
+.skill_sql{
+    width:50%;
+}
 .skills_image {
     margin-left: auto;
+
     margin-right: auto;
     display: block;
 }
